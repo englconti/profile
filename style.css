@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  /* background-color: rgb(220, 136, 26); */
+  background: #EFEFEF;
+  color: #205375;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 700;
+  font-weight: lighter;
+  text-align: center;
+}
+
+header {
+  background: #F66B0E;
+  border-radius: 5px;
+}
+
+header:hover {
+  background: #ee9b64;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 60px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flexitem-1 {
+  align-self: center;
+}
+
+ul {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+li {
+  color: #112B3C;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  list-style: none;
+  padding-left: 0px;
+  /* display: inline-block; */
+  text-align: left;
+}
+
+li:hover {
+  color: #F66B0E;
+}
+
+#profile_pic {
+  border-radius: 30px;
+  border: 1.5px solid #F66B0E;
+  box-shadow: 5px 5px 3px #112B3C;
+  margin-top: 10px;
+}
+
+#profile_pic:hover {
+  box-shadow: 10px 10px 3px #F66B0E;
+}
+
+#profile_description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card-1 {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background: #205375;
+  color: #F66B0E;
+}
+
+.card-1:hover, .card-2:hover {
+  background: #518aaf;
+}
+
+#apolo_pic {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid white
+}
+
+.card-2 {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background: #205375;
+  color: #F66B0E;
+}
+
+#lewagon_pic {
+  height: 50px;
+}
+
+h4 {
+  margin: 10px 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
